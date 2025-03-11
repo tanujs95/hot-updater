@@ -31,7 +31,7 @@
   "scripts": {
     "build": "rslib build",
     "test:type": "tsc --noEmit",
-    "prepare": "rslib build" 
+    "prepare": "cd ../../ && pnpm build"
   },
   "repository": "https://github.com/gronxb/hot-updater",
   "author": "gronxb <gron1gh1@gmail.com> (https://github.com/gronxb)",
